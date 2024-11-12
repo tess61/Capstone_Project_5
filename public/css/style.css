@@ -1,0 +1,21 @@
+body {
+    background-color:hsl(252, 71%, 8%);
+  }
+  
+  .white {
+    color: antiquewhite;
+  }
+  .col {
+    text-align:left;
+    
+  }
+  .card {
+    background-color: hsl(252, 71%, 8%);
+  }
+
+  .book_cover{
+    float: left;
+  }
+  .justify{
+    text-align: justify;
+  }

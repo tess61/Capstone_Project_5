@@ -1,0 +1,43 @@
+<%- include("partials/header.ejs") %>
+<main class="container my-5">
+   <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8">
+            <div class="container mx-auto white">
+                <section class=" white">
+                    <a href="/create" class="btn btn-primary">Create</a>
+                </section>
+                <section>
+                    <h2>Books I've Read</h2>
+                    <p>
+                        Tiny summary but detailed notes for each. <br>
+                        <strong>This page will constantly update as I read more</strong>, so bookmark it if you want to check back in a few months.
+                    </p>
+                    <p>Sorted with my top recommendations up top. sort by <a href="/?sort=title">title</a>, <a href="/?sort=best">Best</a>, or <a href="/?sort=newest">Newest</a>.</p>
+                </section>
+                <section>
+                    <% searchedBooks.forEach(book => { %>
+                    <hr>
+                    <div>
+                        <div class="row align-items-start">
+                            <div>  
+                                    <a href="/details/<%= encodeURIComponent(book.title) %>">
+                                        <img src="https://covers.openlibrary.org/b/id/<%= book.cover_id %>-M.jpg"  class=" book_cover  me-4" width="250" height="300" alt="<%= book.title %>">
+                                        <p>Title: <%= book.title %> : By <%= book.authors_name %></p>
+                                    </a>
+                                    <p></p>
+                                    <p>Pages: <%= book.pages %></p>
+                                    <p>Date: <%= book.finished_date ? book.finished_date : 'N/A' %></p>
+                                    <p>recommendation: <%= book.rating ? book.rating : 'N/A' %></p>
+                                    <p class="justify"><strong>Summary:</strong> <br> <%= book.summary ? book.summary : 'No description available.' %></p>
+                            </div>  
+                        </div>
+                    </div>
+                    <% }) %>
+                </section>
+            </div>
+        </div>
+        <div class="col-2"></div>
+   </div> 
+</main>
+<%- include("partials/footer.ejs") %>

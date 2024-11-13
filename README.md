@@ -1,9 +1,18 @@
 # Capstone Project 5: Book Management Application
 
 This project is the fifth in a series of capstone projects for **The Complete 2024 Web Development Bootcamp** by Dr. Angela Yu on Udemy. The application uses **Open Library's public API** and **PostgreSQL** to manage a collection of books, allowing users to perform CRUD (Create, Read, Update, Delete) operations.
+## Table of Contents
+
+- [Project Structure](#Project-Structure)
+- [Features](#Features)
+- [Project Objectives](#Project-Objectives)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Technologies Used](#Technologies-Used)
+- [Credits](#Credits)
 
 ## Project Structure
-
+```plaintext
 project-root/
 │
 ├── public/
@@ -23,13 +32,21 @@ project-root/
 ├── app.js                          # Main server file
 ├── package-lock.json               # Auto-generated dependencies
 └── package.json                    # Project metadata and dependencies
-
+```
 
 ## Features
 
 - **Book Search**: Uses Open Library's public API to search and retrieve book data.
 - **CRUD Operations**: Allows users to create, view, edit, and delete book entries.
 - **Database Integration**: Uses PostgreSQL to persist book data.
+
+## Project Objectives
+
+**This capstone project meets the following objectives:**
+
+  - **API Integration**: Integrate with Open Library's API to fetch book data.
+  - **Database Operations**: Perform CRUD operations on PostgreSQL.
+  - **Web Development**: Develop a fully-functional, database-backed application using Express and EJS. 
 
 ## Installation
 
@@ -68,14 +85,6 @@ project-root/
    - **EJS as the templating engine.**
    - **Open Library API for book data.**
    - **CSS for styling.**
-
-## Project Objectives
-
-**This capstone project meets the following objectives:**
-
-  - **API Integration**: Integrate with Open Library's API to fetch book data.
-  - **Database Operations**: Perform CRUD operations on PostgreSQL.
-  - **Web Development**: Develop a fully-functional, database-backed application using Express and EJS. 
 
 ## Credits
 

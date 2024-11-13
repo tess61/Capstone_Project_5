@@ -33,29 +33,29 @@ project-root/
 
 ## Installation
 
-1. Clone the repository:
-
-```bash
-   git clone https://github.com/your-username/Capstone_project_5.git
-```
-2. Navigate to the project directory:
-
-```bash
-   cd Capstone_project_5
-```
-3.Install dependencies:
-
-```bash
-  npm install
-```
-4. Set up PostgreSQL:
-
-   - **Create a PostgreSQL database and run the SQL setup script ``` (setup_database.sql) ``` included in the project**.
-
-5. Start the server:
-```bash
-      node app.js
-```
+   1. Clone the repository:
+   
+   ```bash
+      git clone https://github.com/your-username/Capstone_project_5.git
+   ```
+   2. Navigate to the project directory:
+   
+   ```bash
+      cd Capstone_project_5
+   ```
+   3.Install dependencies:
+   
+   ```bash
+     npm install
+   ```
+   4. Set up PostgreSQL:
+   
+      - **Create a PostgreSQL database and run the SQL setup script ``` (setup_database.sql) ``` included in the project**.
+   
+   5. Start the server:
+   ```bash
+         node app.js
+   ```
 ## Usage
 
 - Visit ``` http://localhost:3000 ``` in your browser to access the application.

@@ -50,4 +50,33 @@ project-root/
 ```
 4. Set up PostgreSQL:
 
-5. 
+   - **Create a PostgreSQL database and run the SQL setup script (setup_database.sql) included in the project.
+
+5. Start the server:
+   ```bash
+      node app.js
+   ```
+##Usage
+
+** Visit ``` http://localhost:3000 ``` in your browser to access the application.
+** Use the interface to add, view, update, or delete books in your collection.
+
+## Technologies Used
+
+** Node.js and Express for the backend.
+** PostgreSQL for the database.
+** EJS as the templating engine.
+** Open Library API for book data.
+** CSS for styling.
+
+## Project Objectives
+
+** This capstone project meets the following objectives:
+
+   1. API Integration: Integrate with Open Library's API to fetch book data.
+   2. Database Operations: Perform CRUD operations on PostgreSQL.
+   3. Web Development: Develop a fully-functional, database-backed application using Express and EJS.
+
+## Credits
+
+This project is part of The Complete 2024 Web Development Bootcamp by Dr. Angela Yu on Udemy.

@@ -50,7 +50,7 @@ project-root/
 ```
 4. Set up PostgreSQL:
 
-   - **Create a PostgreSQL database and run the SQL setup script (setup_database.sql) included in the project**.
+   - **Create a PostgreSQL database and run the SQL setup script ``` (setup_database.sql) ``` included in the project**.
 
 5. Start the server:
    ```bash
@@ -63,11 +63,11 @@ project-root/
 
 ## Technologies Used
 
-   **Node.js and Express for the backend.**
-   **PostgreSQL for the database.**
-   **EJS as the templating engine.**
-   **Open Library API for book data.**
-   **CSS for styling.**
+   - **Node.js and Express for the backend.**
+   - **PostgreSQL for the database.**
+   - **EJS as the templating engine.**
+   - **Open Library API for book data.**
+   - **CSS for styling.**
 
 ## Project Objectives
 

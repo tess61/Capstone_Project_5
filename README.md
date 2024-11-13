@@ -35,9 +35,9 @@ project-root/
 
 1. Clone the repository:
 
-   ```bash
+```bash
    git clone https://github.com/your-username/Capstone_project_5.git
-
+```
 2. Navigate to the project directory:
 
 ```bash
@@ -53,10 +53,10 @@ project-root/
    - **Create a PostgreSQL database and run the SQL setup script ``` (setup_database.sql) ``` included in the project**.
 
 5. Start the server:
-   ```bash
+```bash
       node app.js
-   ```
-##Usage
+```
+## Usage
 
 - Visit ``` http://localhost:3000 ``` in your browser to access the application.
 - Use the interface to add, view, update, or delete books in your collection.

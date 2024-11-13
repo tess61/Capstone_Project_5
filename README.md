@@ -73,9 +73,9 @@ project-root/
 
 ** This capstone project meets the following objectives:
 
-   1. API Integration: Integrate with Open Library's API to fetch book data.
-   2. Database Operations: Perform CRUD operations on PostgreSQL.
-   3. Web Development: Develop a fully-functional, database-backed application using Express and EJS.
+  - **API Integration**: Integrate with Open Library's API to fetch book data.
+  - **Database Operations**:Perform CRUD operations on PostgreSQL.
+  - **Web Development**: Develop a fully-functional, database-backed application using Express and EJS. 
 
 ## Credits
 
